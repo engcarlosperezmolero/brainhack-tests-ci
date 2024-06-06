@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import pandas.testing as pdt
 import numpy as np
-from project.pipeline.etl import ingest_csv, clean_and_transform, save_csv, normalize_column
+from pipeline.etl import ingest_csv, clean_and_transform, save_csv, normalize_column
 
 # Datos de prueba
 data = {
